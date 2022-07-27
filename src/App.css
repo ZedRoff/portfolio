@@ -11,6 +11,9 @@ body {
     animation: 2s fade;
   background-size: cover;
   height: 100vh;
+  display:flex;
+  flex-direction: column;
+  
 }
 header {
   background:#090926;
@@ -128,4 +131,28 @@ a {
   .deployer {
     display:none;
   }
+}
+
+.homepage_main {
+  display: flex;
+  flex-direction: column;
+}
+.image_main {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #4C4C4C;
+  box-shadow: 6px 6px 6px black;
+
+}
+.main_title {
+  color: white;
+  font-weight: bold;
+}
+.homepage_main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  font-size: 25px;
 }
