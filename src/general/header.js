@@ -22,7 +22,7 @@ console.log(window.screen.width)
             </ul>
             <i className="fas fa-bars" onClick={() => setStatus(!status)}></i>
         </header>
-        {(status) ? <nav class="deployer">
+        {(status) ? <nav className="deployer">
         <Link to="/" className="deployer_element">   <li >Home</li></Link>
              <Link to="/projects" className="deployer_element">  <li >Projects</li></Link>
              <Link to="/me" className="deployer_element">  <li>Me</li></Link>
