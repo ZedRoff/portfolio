@@ -4,7 +4,7 @@ import {
   Route,
   Navigate
 } from "react-router-dom";
-import App from "./App";
+import Homepage from "./homepage/homepage";
 
 function RouterDef() {
     return(
@@ -13,7 +13,7 @@ function RouterDef() {
           <Route exact path="/" element={<Navigate replace to="/home" />} />
        
        
-       <Route path="/home" element={<App />} />
+       <Route path="/home" element={<Homepage />} />
         </Routes>
       </BrowserRouter>
     )
