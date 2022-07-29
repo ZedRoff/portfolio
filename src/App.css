@@ -514,3 +514,34 @@ transition: .5s border-radius, .5s border;
   height: 55px;
   width: 100px;
 }
+.embed {
+  border-left: 5px solid #7F56FF;
+  background: #35333E;
+  padding: 25px;
+  border-radius: 2px;
+  width: 85vw;
+  display:flex;
+  flex-direction: column;
+ 
+ 
+
+}
+.page404{
+  margin-top: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 150px;
+}
+.embed_title {
+  color: #4A3CF2;
+}
+.embed_description {
+  margin-left: 25px;
+  font-size: 25px;
+  color:white;
+}
+.special_link {
+  color:red;
+}
