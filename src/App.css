@@ -34,7 +34,7 @@ header {
 
 }
 
-.child_header:nth-child(1) {
+.child_header_title {
   color:white;
   border-top: 3px solid white;
   padding: 5px;
@@ -243,4 +243,117 @@ position:relative;
 font-size: 25px;
 
 
+}
+.child_header_title {
+  display: inline-block;
+}
+.child_header_title::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+.child_header_title:hover::after {
+  width: 100%;
+ border-bottom: 2px solid white;
+}
+.child_header_title:hover {
+  cursor: pointer;
+}
+.title_pages {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  width: 50vw;
+  margin: 0 auto;
+  transition: .5s width;
+}
+.title_pages:hover {
+width: 85vw;
+}
+.language_name {
+  color:white;
+  background: #2e2e2e;
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+  width: 75vw;
+text-align: center;
+margin: 0 auto;
+
+  
+}
+.language_name:hover {
+  animation: long_large 1s forwards;
+}
+@keyframes long_large {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.container_cards {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+.projects_card {
+width: 375px;
+
+box-shadow: 8px 8px 8px black;
+background: #e2E2E2;
+transition: .5s border-radius, .5s border;
+}
+@media only screen and (max-width: 800px) {
+  .container_cards {
+    flex-direction: column;
+
+  }
+  .projects_card {
+    width: 85vw;
+    margin-top: 15px;
+  }
+}
+.image_projects {
+  width: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom: 5px groove black;
+  height: 375px;
+  box-shadow: 6px 6px 6px grey;
+  transition: .5s border-radius, .5s border;
+}
+.projects_card:hover {
+  border: 5px solid #FF645F;
+    border-radius: 15px;
+}
+.image_projects:hover {
+  border: 5px solid #FF645F;
+ 
+  border-radius: 0px;
+}
+.title_project {
+  padding: 25px;
+  border-bottom: 5px solid black;
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+}
+.description_project {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
 }

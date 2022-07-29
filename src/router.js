@@ -5,6 +5,7 @@ import {
   Navigate
 } from "react-router-dom";
 import Homepage from "./homepage/homepage";
+import Projects from "./projects/projects";
 
 function RouterDef() {
     return(
@@ -14,6 +15,7 @@ function RouterDef() {
        
        
        <Route path="/home" element={<Homepage />} />
+       <Route path="/projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
     )
