@@ -44,7 +44,7 @@ body {
   
   display:flex;
   flex-direction: column;
-gap: 100px;
+gap: 75px;
 
 
   
@@ -423,7 +423,7 @@ transition: .5s border-radius, .5s border;
    
 }
 .block_button {
-  margin-right: 100px;
+
   font-weight: bold;
   padding: 15px;
   background: #1D2124;
@@ -436,4 +436,81 @@ transition: .5s border-radius, .5s border;
 .block_button:hover {
   background-color: #3F51B5;
   color: white;
+}
+@media only screen and (max-width: 800px) {
+  .footer_content {
+    font-size: 10px;
+    margin-top: 5px;
+    /* to review */
+  }
+}
+.form_contact {
+  display: flex;
+  flex-direction:column;
+  background: #262D62;
+  padding: 25px;
+  width: 85vw;
+  border-radius: 15px;
+  gap: 15px;
+
+}
+.form_contact:hover {
+  animation: .5s fd forwards;
+ 
+}
+@keyframes fd {
+  to {
+    -webkit-box-shadow: 0px 11px 22px 7px #000000; 
+    box-shadow: 0px 11px 22px 7px #000000;
+  }
+}
+.title_contact_form {
+  color:white;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+::placeholder {
+  color:white;
+}
+.input_contact_form {
+  background:none;
+  outline:none;
+  border:none;
+  border-bottom: 2px solid #59FBD0;
+  padding: 15px;
+  color:white;
+  
+
+}
+.contact_page {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.textarea_contact_form {
+  background:none;
+  outline:none;
+  border:none;
+  border-bottom: 2px solid #59FBD0;
+  padding: 10px;
+  color:white;
+  height: 100px;
+}
+.button_contact_form {
+  align-self: flex-end;
+  color:white;
+  font-weight: bold;
+  background: #46BB9C;
+  border:none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  height: 55px;
+  width: 100px;
 }

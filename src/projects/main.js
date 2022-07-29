@@ -1,11 +1,9 @@
 import Card from "./card";
-
+import Title from "../general/title";
 function Main() {
   return (
 <>
- <div className="title_pages">
-    <h2 className="title_pages_content">Projects</h2>
- </div>
+<Title name="Projects" />
 
  <div className="language_name"><h2 className="language_name_content">JavaScript Projects</h2></div>
 
