@@ -10,6 +10,7 @@ import Links from "./links/links";
 import Projects from "./projects/projects";
 import ErrorPage from "./general/ErrorPage";
 import Me from "./me/me";
+import Blog from "./blog/blog";
 function RouterDef() {
     return(
         <BrowserRouter>
@@ -22,6 +23,7 @@ function RouterDef() {
        <Route path="/links" element={<Links />} />
        <Route path="/contact" element={<Contact />} />
        <Route path="/me" element={<Me />} />
+       <Route path="/blog" element={<Blog />} />
        <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
