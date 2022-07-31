@@ -7,5 +7,5 @@ app.listen(PORT, () => {
     console.log("backend prêt")
 })
 app.get("/api/test", (req, res) => {
-    return res.send("404 mdr")
+    return res.send("404 mdr") // test
 })
