@@ -6,6 +6,6 @@ import './App.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-    <RouterDef /> // test
+    <RouterDef /> 
 
 );
