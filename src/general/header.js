@@ -8,9 +8,10 @@ console.log(window.screen.width)
         <>
         <header>
             <div className="child_header">
-                <h2 className="child_header_title">
+                
+               <Link to="/home">    <h2 className="child_header_title">
                     ZedRoff
-                    </h2>
+                    </h2></Link> 
             </div>
             <ul className="child_header">
              <Link to="/">   <li className="child_header_element">Home</li></Link>

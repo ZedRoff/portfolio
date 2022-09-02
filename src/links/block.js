@@ -8,9 +8,9 @@ function Block(props) {
           <h2 className="block_title">{props.name}</h2>
         </div>
         <div className="block_bottom">
-          <Link to={props.url} className="block_button" target="_blank">
+          <a href={props.url} className="block_button" target="_blank">
             Link
-          </Link>
+          </a>
         </div>
       </div>
     )

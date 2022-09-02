@@ -420,6 +420,7 @@ transition: .5s border-radius, .5s border;
 }
 .block_bottom {
     align-self: flex-end;
+   margin-top: 25px;
    
 }
 .block_button {
@@ -614,7 +615,7 @@ hr {
   text-align: center;
   padding: 15px;
   border: 2px groove black;
-  width: 35%;
+ 
 }
 .languages_show {
   display: flex;
@@ -741,4 +742,27 @@ b {
 }
 .embed_blog_footer {
   color:grey;
+}
+.github {
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  display:flex;
+ 
+  align-items: center;
+  transition: .5s transform;
+}
+.github_name {
+  margin-left: 15px;
+}
+.github_aligner {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-github {
+  font-size: 25px;
+}
+.github:hover {
+  transform: scale(0.9);
 }

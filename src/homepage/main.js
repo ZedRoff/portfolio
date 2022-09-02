@@ -5,8 +5,8 @@ function Main() {
         <main className="homepage_main">
 <img src="https://cdn.glitch.com/04a4d0d3-5530-4593-8c2b-59b2a71007bf%2F3f18167d483a335895c6bad29836a76a.png?v=1587400343320" className="image_main" alt="no source" />
            
-           <h2 className="main_title">Hello ! I'm ZedRoff. Welcome in my portfolio</h2>
-           
+           <h2 className="main_title">Hello ! I'm ZedRoff, student at ESIEE Paris<br />Welcome in my portfolio</h2>
+        
             </main>
     )
 }
