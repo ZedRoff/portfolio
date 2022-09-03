@@ -1,10 +1,12 @@
 import Parser from 'html-react-parser';
 import Header from '../general/header';
 import Footer from '../general/footer';
+
 function Blogpage(props) {
 
   return (
 <>
+
 <Header />
 
 

@@ -828,3 +828,6 @@ box-shadow: 1px 9px 14px 5px rgba(0,0,0,0.75);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+td > h1 {
+  padding: 25px;
+}
