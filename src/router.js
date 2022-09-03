@@ -11,7 +11,25 @@ import Projects from "./projects/projects";
 import ErrorPage from "./general/ErrorPage";
 import Me from "./me/me";
 import Blog from "./blog/blog";
-function RouterDef() {
+import axios from "axios";
+import Blogpage from "./blog/blogPage";
+import React from "react";
+
+class RouterDef extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {value: []}
+  } 
+componentDidMount() {
+axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
+  infos.data.forEach(info => {
+    this.state.value.push([info.id, info.content])
+    return this.setState({value: [...this.state.value, [info.id, info.content]]})
+  })
+})
+}
+
+  render() {
     return(
         <BrowserRouter>
         <Routes>
@@ -25,10 +43,21 @@ function RouterDef() {
        <Route path="/me" element={<Me />} />
        <Route path="/blog" element={<Blog />} />
        <Route path="*" element={<ErrorPage />} />
+
+       {
+        
+        this.state.value.map(r => {
+       
+  return <Route path={`articles/${r[0]}`} element={<Blogpage content={r[1]} />} />
+
+        })
+         
+        }
         </Routes>
       </BrowserRouter>
     )
      
 }
 
+}
 export default RouterDef
