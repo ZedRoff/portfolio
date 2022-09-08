@@ -17,7 +17,7 @@ function Main() {
           A Rest API with an interface, using EJS, NodeJS, and expressJS.
          " image="https://cdn.discordapp.com/icons/587220309065596944/833681e9d243d515abe93a3aed82fb13.webp?size=2048" url="https://github.com/ZedRoff/theapi"/>
     <Card name="Chat-App" description="
-           A chat app built with sockets and basic NodeJS" image="https://cdn.discordapp.com/icons/692762301329309697/92da45f46503b5ef1d8ce0c24e096735.webp?size=128" url="https://github.com/ZedRoff/chat-app"/>
+           A chat app built with sockets and basic NodeJS" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnk292BEKxlFBtlhCdAF3Y7oK98FOzUI2vWg&usqp=CAU" url="https://github.com/ZedRoff/chat-app"/>
  </div>
 
  <div className="language_name"><h2 className="language_name_content">HTML/CSS Projects</h2></div>
