@@ -23,8 +23,7 @@ return(
 I use Visual Studio code as my main code editor, I use it because there are a lot of cool extensions and it's simple to use.
      " />
     <Tool image="https://cdn.glitch.com/533e1033-6025-49f4-b312-dfe999f8a402%2Fglitch-2019-08-03_09-36-54-icon-resized.png?v=1595005957461" name="Glitch" description="I use Glitch as a website hoster, it's something like a 'free vps', but it's very nice to share projects worldwide for free." />
-    <Tool image="https://cdn.glitch.com/533e1033-6025-49f4-b312-dfe999f8a402%2FGITHUB-512.png?v=1595006286019" name="Glitch" description="I use Glitch as a website hoster, it's something like a 'free vps', but it's very nice to share projects worldwide for free." />
-    <Tool image="https://cdn.glitch.com/533e1033-6025-49f4-b312-dfe999f8a402%2Fglitch-2019-08-03_09-36-54-icon-resized.png?v=1595005957461" name="GitHub" description="
+    <Tool image="https://cdn.glitch.com/533e1033-6025-49f4-b312-dfe999f8a402%2FGITHUB-512.png?v=1595006286019" name="GitHub" description="
  I'm not using that actively GitHub actually, but soon I will merge a lot of projects inside my GitHub account. As everyone, to share codes.
      " />
     <Tool image="https://cdn.glitch.com/533e1033-6025-49f4-b312-dfe999f8a402%2FDiscord-512.png?v=1595006226722" name="Discord" description="
@@ -34,7 +33,7 @@ I use Discord because in my opinion, it is the best chat app for developers, it 
 )
     }
    
-    console.log(props.special)
+   
     return (
 
         <div className="block_me">
