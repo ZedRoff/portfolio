@@ -602,6 +602,12 @@ hr {
     width: 95%;
     gap: 100px;
 }
+@media only screen and (max-width: 800px) {
+  .blocks_me {
+    width: 100%;
+
+  }
+}
 .description_block_me {
   color: white;
   text-align: justify;
