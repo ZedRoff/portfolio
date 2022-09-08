@@ -3,7 +3,7 @@ import { Link} from "react-router-dom"
 function Header() {
 
     const [status, setStatus] = useState(false)
-console.log(window.screen.width)
+
     return(
         <>
         <header>

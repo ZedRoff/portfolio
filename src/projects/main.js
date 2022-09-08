@@ -1,6 +1,10 @@
 import Card from "./card";
 import Title from "../general/title";
+import {useEffect} from "react"
 function Main() {
+  useEffect(() => {
+    document.title = 'Projects Page';
+  });
   return (
 <>
 <Title name="Projects" />
