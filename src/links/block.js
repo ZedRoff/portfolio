@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 function Block(props) {
     return(
       <div className="block_links">
@@ -8,7 +7,7 @@ function Block(props) {
           <h2 className="block_title">{props.name}</h2>
         </div>
         <div className="block_bottom">
-          <a href={props.url} className="block_button" target="_blank">
+          <a href={props.url} className="block_button" target="_blank" rel="noreferrer">
             Link
           </a>
         </div>
