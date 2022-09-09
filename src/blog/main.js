@@ -9,7 +9,7 @@ class Main extends React.Component {
     this.ref = React.createRef()
   }
   componentDidMount() {
-    axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
+    axios.get(process.env.REACT_APP_BLOG).then(infos => {
 
       infos.data.forEach(info => {
 

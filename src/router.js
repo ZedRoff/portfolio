@@ -21,9 +21,9 @@ class RouterDef extends React.Component {
     this.state = {value: []}
   } 
 componentDidMount() {
-axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
+axios.get(process.env.REACT_APP_BLOG).then(infos => {
   infos.data.forEach(info => {
-    
+
     this.state.value.push([info.id, info.content, info.title, info.date])
     return this.setState({value: [...this.state.value, [info.id, info.content, info.title, info.date]]})
   })

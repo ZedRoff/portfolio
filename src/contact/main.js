@@ -44,7 +44,7 @@ function Main() {
     e.preventDefault()
     if(emailError === 0 || fnameError === 0 || lnameError === 0 || messageError === 0) return alert("One or more inputs are invalid, please check out.")
   
-    axios.post(`https://zedroff.glitch.me/api/v1/postcontact/${eMail.current.value}/${fname.current.value}/${lname.current.value}/${message.current.value}`).then(res => {
+    axios.post(`${process.env.REACT_APP_CONTACT}${eMail.current.value}/${fname.current.value}/${lname.current.value}/${message.current.value}`).then(res => {
       alert(res.data.message)
     })
   }
