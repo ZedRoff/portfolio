@@ -23,6 +23,7 @@ class RouterDef extends React.Component {
 componentDidMount() {
 axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
   infos.data.forEach(info => {
+    
     this.state.value.push([info.id, info.content, info.title, info.date])
     return this.setState({value: [...this.state.value, [info.id, info.content, info.title, info.date]]})
   })
@@ -47,8 +48,8 @@ axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
        {
         
         this.state.value.map((article, index) => {
-       
-  return <Route path={`articles/${article[0]}`} element={<Blogpage content={article[1]} title={article[2]} footer={article[3]} key={index} />} />
+     
+  return <Route path={`articles/${article[0]}`} element={<Blogpage content={article[1]} title={article[2]} footer={article[3]} key={index} />} key={index} />
 
         })
          
