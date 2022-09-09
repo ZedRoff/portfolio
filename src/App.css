@@ -837,3 +837,13 @@ box-shadow: 1px 9px 14px 5px rgba(0,0,0,0.75);
 td > h1 {
   padding: 25px;
 }
+#univ {
+  border-bottom: 2px solid white;
+  transition: .5s all;
+  color: #222F58;
+ 
+}
+#univ:hover {
+  border-bottom: 2px solid grey;
+
+}
