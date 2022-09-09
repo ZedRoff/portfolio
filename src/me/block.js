@@ -5,12 +5,11 @@ function Block(props) {
     const languages = () => {
         return(
     <div className="languages_show">
-        <Language name={<><b>HTML/CSS</b> ✓ | Since 5 Years.</>} value="4"/>
+        <Language name={<><b>HTML/CSS</b> ✓ | Since 6 Years.</>} value="5"/>
        <Language name={<><b>JS</b> ✓ | Since 4 Years.</>} value="4" />
-       <Language name={<><b>Python</b> ✓ | Since 4 Years.</>} value="4" />
-       <Language name={<><b>Java</b> = | Just learning.</>} value="2" />
-       <Language name={<><b>PHP</b> = | Only know how it works.</>} value="1" />
-        
+       <Language name={<><b>Python</b> ✓ | Since 3 Years.</>} value="4" />
+       <Language name={<><b>Java</b> = | Just learning.</>} value="1" />
+       
     
         <h2 className="databases">And finally the databases I can use : MongoDB / SQL.</h2>
         </div>

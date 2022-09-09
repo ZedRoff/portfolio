@@ -193,6 +193,7 @@ a {
 }
 .image_main:hover {
   transform: scale(0.9);
+  transform: rotate(-360deg);
 }
 .main_title {
   color: white;
