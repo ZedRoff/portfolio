@@ -8,6 +8,7 @@ function Card(props) {
     <h2 className="title_project">{props.name}</h2>
     <p className="description_project">{props.description}</p>
     </div>
+    
     </a>
     );
   }

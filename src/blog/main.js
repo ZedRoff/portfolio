@@ -12,11 +12,11 @@ class Main extends React.Component {
     axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
 
       infos.data.forEach(info => {
- 
-   
-     this.state.value = [...this.state.value, [info.title, info.description, info.content, info.id, info.date]]
-     return this.setState({value: [...this.state.value, [info.title, info.description, info.content, info.id, info.date]]})
 
+        
+     this.state.value = [...this.state.value, [info.title, info.description, info.content, info.id, info.date]]
+    
+     return this.setState({value: [...this.state.value, [info.title, info.description, info.content, info.id, info.date]]})
       })
       
 
@@ -27,9 +27,10 @@ class Main extends React.Component {
     return (
       <main className="blog_page">
       <Title name="Blog" />
-     {this.state.value.map(article => {
-    
-      return <Embed title={article[0]} description={article[1]} footer={article[4]} id={article[3]} />
+      
+     {this.state.value.map((article, index) => {
+      if(index == this.state.value.length-1) return;
+      return <Embed title={article[0]} description={article[1]} footer={article[4]} id={article[3]} key={index}/>
      })}
       
          </main>

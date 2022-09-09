@@ -325,9 +325,11 @@ margin: 0 auto;
 @keyframes long_large {
   from {
     transform: scale(0.9);
+  
   }
   to {
     transform: scale(1);
+    
   }
 }
 .container_cards {
@@ -368,7 +370,7 @@ transition: .5s border-radius, .5s border;
 }
 .image_projects:hover {
   border: 5px solid #FF645F;
- 
+
   border-radius: 0px;
 }
 .title_project {

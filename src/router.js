@@ -46,9 +46,9 @@ axios.get("https://zedroff.glitch.me/api/v1/blog").then(infos => {
 
        {
         
-        this.state.value.map(r => {
+        this.state.value.map((article, index) => {
        
-  return <Route path={`articles/${r[0]}`} element={<Blogpage content={r[1]} title={r[2]} footer={r[3]} />} />
+  return <Route path={`articles/${article[0]}`} element={<Blogpage content={article[1]} title={article[2]} footer={article[3]} key={index} />} />
 
         })
          
