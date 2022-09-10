@@ -817,7 +817,16 @@ box-shadow: 1px 9px 14px 5px rgba(0,0,0,0.75);
   .description_project {
     font-size: 15px;
   }
-  
+  svg {
+    height: 150px;
+
+  }
+  path {
+    stroke-width: 5px;
+  }
+  .footer_content {
+    font-size: 15px;
+  }
 }
 .deployer {
   position:absolute;
@@ -825,6 +834,7 @@ box-shadow: 1px 9px 14px 5px rgba(0,0,0,0.75);
   right: 0;
   left: 0;
 }
+
 /* Container holding the image and the text */
 .container-n {
   position: relative;
