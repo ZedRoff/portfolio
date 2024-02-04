@@ -22,7 +22,7 @@ function Homepage() {
   useEffect(() => {
     document.title = 'Home Page';
     
-    let Listener = new SpotifyListener({
+/*    let Listener = new SpotifyListener({
       username: 'felowzed',
       key: process.env.REACT_APP_TOKEN,
       pollInterval: 60000, 
@@ -40,8 +40,8 @@ function Homepage() {
     });
 
   
-    Listener.startListening()
-  });
+    Listener.startListening() */
+  }, []);
   return (
 <>
 
