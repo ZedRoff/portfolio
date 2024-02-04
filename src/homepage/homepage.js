@@ -47,7 +47,7 @@ function Homepage() {
 
    <Header />
    <Main />
-   <a className="abs" href="/">
+ /*  <a className="abs" href="/">
 
     <img src={music.image} className="image_spotify" alt="no source"/>
     <div className="music_info">
@@ -55,7 +55,7 @@ function Homepage() {
       <h3 className="music_artist">{music.artist}</h3>
       <h3 className="music_album">{music.album}</h3>
       </div>
-   </a>
+   </a>*/
    <Section />
    <Github />
    <Footer />
