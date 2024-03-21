@@ -33,13 +33,13 @@
       { 
         "name": "Chessboard",
         "description": "Built a chessboard so you can play with your friends (still in beta)",
-        "image": "",
+        "image": "https://cdn.glitch.global/f7a66f83-d9ee-427d-b319-a7bb84099f54/qsd.PNG?v=1711043650768",
         "url": "https://github.com/ZedRoff/chessboard"
       },
       { 
         "name": "TaskManager",
         "description": "Built a taskmanager to help you organize your tasks and keep track of them",
-        "image": "",
+        "image": "https://cdn.glitch.global/f7a66f83-d9ee-427d-b319-a7bb84099f54/Capture.PNG?v=1711043488151",
         "url": "https://github.com/ZedRoff/TaskManager"
       }
       
@@ -74,13 +74,13 @@
       {
         "name": "Edgar's Journey",
         "description": "An adventure 2D game text-centric game built to learn OOP main principles",
-        "image": "",
+        "image": "https://cdn.glitch.global/f7a66f83-d9ee-427d-b319-a7bb84099f54/Capture.PNG?v=1711043338692",
         "url": "https://github.com/ZedRoff/edgarjourney"
       },
       {
         "name": "Penguin Drunky",
         "description": "A 2D game built in corporation with ESIEE-IT, you control a penguin and everytime you catch a beer, you get drunk and the game gets harder",
-        "image": "",
+        "image": "https://cdn.glitch.global/f7a66f83-d9ee-427d-b319-a7bb84099f54/Capture.PNG?v=1711043488151",
         "url": "https://github.com/ZedRoff/penguin_drunky"
       }
       
