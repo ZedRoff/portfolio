@@ -28,7 +28,7 @@ function Header() {
              <Link to="/projects" className="deployer_element">  <li >Projects</li></Link>
              <Link to="/me" className="deployer_element">  <li>Me</li></Link>
              <Link to="/links" className="deployer_element">  <li >Links</li></Link>
-             <Link to="/blog" className="deployer_element">  <li >Blog</li></Link>
+             <a href="https://felow.gitbook.io/blog/" target="_blank">  <li >Blog</li></a>
              <Link to="/contact" className="deployer_element"> <li >Contact</li></Link>
         </nav> : "" }
        
