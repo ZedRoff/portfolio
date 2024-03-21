@@ -10,7 +10,7 @@ function Header() {
             <div className="child_header">
                 
                <Link to="/home">    <h2 className="child_header_title">
-                    ZedRoff
+                    Aman
                     </h2></Link> 
             </div>
             <ul className="child_header">

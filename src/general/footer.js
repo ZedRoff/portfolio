@@ -6,7 +6,7 @@ function Footer() {
    <footer>
     <h2 className="footer_content">
           
-          © Made with {"<3"} By ZedRoff
+          © Aman
                       </h2>
  
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270">

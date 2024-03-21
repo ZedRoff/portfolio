@@ -4,7 +4,6 @@ function Language(props) {
         {props.name}
         
     </h3>
-    <progress class="lang_progress" value={props.value} max="5"></progress>
 </div>)
 }
 export default Language
