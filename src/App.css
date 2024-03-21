@@ -45,7 +45,6 @@ body {
   display:flex;
   flex-direction: column;
 gap: 75px;
-align-items: center;
 
 
   
@@ -340,6 +339,7 @@ margin: 0 auto;
   justify-content: space-evenly;
   gap: 25px;
   width: 70vw;
+  margin: 0 auto;
 }
 .projects_card {
 width: 375px;
